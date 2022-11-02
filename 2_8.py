@@ -27,23 +27,8 @@ def make_ndim_vector_class(n):
           
 Vector3 = make_ndim_vector_class(3)
 v1 = Vector3(1, 3, 5)
-Vector2 = make_ndim_vector_class(2)
 v2 = Vector3(3, 5, 0)
 print(v1 + v2)
-
-
-
-# v1 = Vector(7, -1, 5)
-# v2 = Vector(2, -4, 9)
-# print(v2 + v1)
-# print(Vector.get_length(v1))
-# print(Vector.show(v1))
-# # # v2 = Vector([1, 3, 5])
-
-# print(v1)
-
-# def printScores(*scores):
-#    print(f"Student Name: Vector")
-#    for score in scores:
-#     print(score)
-# printScores([100, 95, 88, 92, 99])
+Vector2 = make_ndim_vector_class(2)
+v3 = Vector2(1, 3)
+print(v1 + v3)
